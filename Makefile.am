@@ -11,3 +11,6 @@ PERL_TESTS += t/00-perl.t
 TESTS = $(PERL_TESTS)
 
 EXTRA_DIST += $(PERL_TESTS)
+EXTRA_DIST += t/common.pm
+EXTRA_DIST += t/utility
+EXTRA_DIST += helper.pl
